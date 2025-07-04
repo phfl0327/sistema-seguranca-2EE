@@ -1,43 +1,6 @@
-# Sistema de Segurança Residencial Inteligente
+![image](https://github.com/user-attachments/assets/3c39555e-82dc-4589-9e5e-0bc44db5139b)# Sistema de Segurança Residencial Inteligente
 
 ## 1. Introdução
-
-## 2. Funcionalidades
-
-## 3. Tecnologias Utilizadas
-
-## 4. Arquitetura do Sistema e Estrutura do Código
-
-### 4.1. Visão Geral
-
-### 4.2. Detalhamento dos Módulos e Funções
-
-#### 4.2.1. Inicialização e Configuração
-
-#### 4.2.2. Conectividade de Rede
-
-#### 4.2.3. Controle de Sensores e Atuadores
-
-#### 4.2.4. Lógica de Alarme e Pânico
-
-#### 4.2.5. Interface Web
-
-## 5. Diagrama de Fluxo do Sistema
-
-## 6. Instalação e Configuração
-
-## 7. Uso do Sistema
-
-## 8. Considerações de Hardware
-
-## 9. Melhorias Futuras
-
-## 10. Autores
-
-## 11. Licença
-
-
-
 
 Este documento apresenta uma análise aprofundada de um sistema de segurança residencial inteligente, desenvolvido com foco em acessibilidade e controle remoto. O projeto integra hardware e software para monitorar diversos pontos de entrada e condições ambientais, oferecendo uma solução robusta para a proteção patrimonial. A arquitetura do sistema é baseada em microcontroladores, especificamente o ESP32, devido à sua capacidade de processamento e conectividade Wi-Fi integrada, o que permite a criação de uma interface web para interação do usuário. O objetivo principal é fornecer uma compreensão detalhada do funcionamento do sistema, desde a inicialização dos componentes até a lógica de operação dos sensores, atuadores e a interface de usuário, com uma abordagem didática adequada para estudantes de nível superior em áreas como Engenharia de Computação, Engenharia Elétrica ou Ciência da Computação.
 
@@ -93,8 +56,7 @@ O desenvolvimento deste sistema de segurança residencial inteligente emprega um
 
 Essas tecnologias, em conjunto, formam a base técnica para a construção de um sistema de segurança robusto, eficiente e de fácil interação.
 
-
-
+![image](https://github.com/user-attachments/assets/c3a1779b-adea-4965-960d-b6e4b4f84594)
 
 ### 4. Arquitetura do Sistema e Estrutura do Código
 
@@ -546,6 +508,7 @@ Esta lógica de alarme é projetada para ser visual e audivelmente impactante, u
 ##### 4.2.5. Interface Web
 
 A interface web é um componente crucial do sistema, permitindo que o usuário monitore o status dos sensores e controle o sistema remotamente através de um navegador. Esta seção detalha a função que gera a página HTML e a função que gerencia as requisições HTTP.
+![image](https://github.com/user-attachments/assets/2377a399-394d-42cc-b484-73d2f266a7a3)
 
 ```python
 def pagina(): # Função que define as variaveis para serem usadas para controle da pagina e o html da página
