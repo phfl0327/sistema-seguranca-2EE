@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/3c39555e-82dc-4589-9e5e-0bc44db5139b)# Sistema de Segurança Residencial Inteligente
-
+![image](https://github.com/user-attachments/assets/3c39555e-82dc-4589-9e5e-0bc44db5139b)
+[Link do Wowki com projeto para testes](https://wokwi.com/projects/435502824546531329)
 ## 1. Introdução
 
 Este documento apresenta uma análise aprofundada de um sistema de segurança residencial inteligente, desenvolvido com foco em acessibilidade e controle remoto. O projeto integra hardware e software para monitorar diversos pontos de entrada e condições ambientais, oferecendo uma solução robusta para a proteção patrimonial. A arquitetura do sistema é baseada em microcontroladores, especificamente o ESP32, devido à sua capacidade de processamento e conectividade Wi-Fi integrada, o que permite a criação de uma interface web para interação do usuário. O objetivo principal é fornecer uma compreensão detalhada do funcionamento do sistema, desde a inicialização dos componentes até a lógica de operação dos sensores, atuadores e a interface de usuário, com uma abordagem didática adequada para estudantes de nível superior em áreas como Engenharia de Computação, Engenharia Elétrica ou Ciência da Computação.
