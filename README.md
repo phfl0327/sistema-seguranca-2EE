@@ -56,7 +56,7 @@ O desenvolvimento deste sistema de segurança residencial inteligente emprega um
 
 Essas tecnologias, em conjunto, formam a base técnica para a construção de um sistema de segurança robusto, eficiente e de fácil interação.
 
-![image](https://github.com/user-attachments/assets/c3a1779b-adea-4965-960d-b6e4b4f84594)
+                ![image](https://github.com/user-attachments/assets/c3a1779b-adea-4965-960d-b6e4b4f84594)
 
 ### 4. Arquitetura do Sistema e Estrutura do Código
 
