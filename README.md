@@ -74,15 +74,15 @@ A conectividade Wi-Fi é o pilar da comunicação remota, permitindo que o ESP32
 
 ```mermaid
 graph TD
-    A[Sensores: Janela, Porta, Externa, Muro, Portão] --> B{ESP32 Microcontrolador}
-    C[Botão de Ativação/Desativação] --> B
-    D[Botão de Pânico] --> B
-    B -- IRQs --> E[Lógica de Controle do Sistema]
-    E -- Aciona --> F[Atuadores: Buzzer, LEDs, Servo Motor]
-    B -- Wi-Fi --> G[Rede Local (LAN)]
-    G -- HTTP --> H[Dispositivo do Usuário (Navegador Web)]
+    A["Sensores: Janela, Porta, Externa, Muro, Portão"] --> B{"ESP32 Microcontrolador"}
+    C["Botão de Ativação/Desativação"] --> B
+    D["Botão de Pânico"] --> B
+    B -- IRQs --> E["Lógica de Controle do Sistema"]
+    E -- Aciona --> F["Atuadores: Buzzer, LEDs, Servo Motor"]
+    B -- Wi-Fi --> G["Rede Local (LAN)"]
+    G -- HTTP --> H["Dispositivo do Usuário (Navegador Web)"]
     H -- Requisições HTTP --> B
-    B -- Servidor Web (Thread Separada) --> H
+    B -- "Servidor Web (Thread Separada)" --> H
     E -- Atualiza Status --> H
 ```
 
